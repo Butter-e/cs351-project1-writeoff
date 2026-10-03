@@ -17,7 +17,7 @@ function CartItem({
           <div className="d-flex align-items-center gap-3">
 
             <img
-              src={`/images/products/${item.image}`}
+              src={`./images/products/${item.image}`}
               alt={item.name}
               className="cart-item-image"
             />
