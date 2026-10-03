@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# WriteOff
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WriteOff is a fictional stationery e-commerce website created for CS 351 Project 1. The website was developed as a single-page React application and allows users to browse stationery products, view individual product details, add products to a shopping cart, and interact with account creation and login forms.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Responsive single-page React application
+- 25 stationery products
+- Product pagination
+- Individual product detail views
+- Product color and option selection
+- Quantity and stock validation
+- Shopping cart with quantity controls
+- Automatic cart totals
+- Account login form
+- Create Account form with client-side validation
+- Responsive Bootstrap navigation and layouts
+- Product images and product information loaded from JSON
+- Conditional rendering for product and interface elements
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- JavaScript
+- HTML
+- CSS
+- Bootstrap
+- JSON
+- Google Cloud Storage
+- Git and GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running the Project Locally
 
-### `npm test`
+Install the project dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    npm install
 
-### `npm run build`
+Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will then run locally in a web browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Production Build
 
-### `npm run eject`
+To create a production build:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The generated static files are placed in the `build` directory and can be deployed to a static hosting service.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The production version of WriteOff is deployed as a static website using Google Cloud Storage.
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `src/components` - Reusable React components
+- `src/views` - Main application views
+- `src/data` - Product JSON data
+- `public/images/products` - Product image assets
+- `App.js` - Main application state and view management
+- `App.css` - Application styling and responsive design
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created for CS 351 Project 1.
